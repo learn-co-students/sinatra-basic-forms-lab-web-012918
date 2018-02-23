@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Your Puppy!</title>
+  </head>
+  <body>
+    <h1>Puppy stats</h1>
+    <form method="POST" action="/new">
+      <p>Puppy Name:</p>
+      <p><%= params[:name] %></p>
+      <p>Puppy Breed: </p>
+      <p><%= params[:breed]%> </p>
+      <p>Puppy Age: </p>
+      <p><%= params[:age] %></p>
+    </form>
+  </body>
+</html>
